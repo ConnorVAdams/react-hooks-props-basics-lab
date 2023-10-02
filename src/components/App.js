@@ -10,7 +10,7 @@ console.log(user);
 function App() {
   return (
     <div>
-      <NavBar links={user.links}/>
+      <NavBar />
       <Home name={user.name} city={user.city} color={user.color}/>
       <About bio={user.bio} links={user.links}/>
     </div>
